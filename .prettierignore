@@ -1,0 +1,33 @@
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+**/*.html
+
+# Ignore node_modules directory:
+node_modules
+
+# Ignore logs:
+*.log
+
+# Ignore environment variable files:
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+app.js
+
+# Ignore specific config files:
+*.config.js
+
+# Ignore public directory (for React projects):
+public
+
+# Ignore dist directory (for Node.js projects):
+dist
+
+# Ignore any other specific files or directories:
+# Add your custom ignore patterns here
